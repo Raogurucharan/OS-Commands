@@ -1,0 +1,47 @@
+ls=   listing files and directries.
+man=  manual( man ls,man cd,man pewd,man touch)
+
+touch=(--> to create a file by putting command like = touch a.txt
+       --> to create multiple files =touch b.txt c.txt
+       --> also used to modify timestamps
+       --> enter man touch to know all use of touch like-a,-c,-f,-m and to return back press q )
+
+cat=  (--> create and write file : cat > ABC.txt  . enter likre "hello" To exit press ctrl+d or ctrl+z
+       --> read the content of file : cat ABC.txt
+       --> append content into file : cat >> ABC.txt then enter "here you go".Now the line will give u "hello""here you go"
+           the reason for the use of >> instead of > is because >> will not overwrite
+       --> concatination: cat >> b.txt a.txt c.txt here b.txt is destination file where a and b contents are concatinated )
+
+cp=   (--> cp a.txt ABC.txt : this will give the only the first line of the file )
+
+mv=   (--> it will move + cut + rename + paste
+       --> mv ABC.txt XYZ.txt)
+
+mkdir=(--> used to create directories
+       --> mkdir -p ABC -> single dirctory is created  [to check enter ls then enter cd to know its path]
+       --> mkdir -p ABC/DEF/GHI : inside ABC there is DEF  and inside DEF there is GHI [then put cd ABC then ls we get DEF]
+       --> mkdir -p AB/{A,B,C} : there are 3 different directories created in AB then to see result enter cd AB)
+      
+rmdir=(used to remove empty directories )
+      
+rm =  (used to remove files and non empty directories
+      --> rm -f ABC [to remove files or we can use rm abc.txt after thet enter y for yes or n for no]
+      --> rm -r DFG [remove files + directories]
+      --> rm -d SRE [remove empty diretory]  )
+
+chmod =( to change the permissions of file/directories
+         --> chmod u=rwx,g=w,o=rwx abc.txt [ first enter ls -l ] 
+         --> if u dont want to give permission then do chmod u=,g=,o= abc.txt )
+
+cd    =   ( to change the directory )
+
+pwd   =  ( present working directory: pwd )
+
+ls -a =hidden files
+ls -A =almost all the file(except for parent file and current file)
+ls-l  = long list(if starting is d then directory,size in kb but not displayed)
+ls-lh = long listing but size is in human readable form (size will be displayed)
+ls -r = list in reverse order
+ls-R  =list directory contents recursively
+ls-s  =listing the size of all files and directories
+ls-s  =(will display file with highest file first)
