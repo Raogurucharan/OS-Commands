@@ -1,4 +1,5 @@
 ls=   listing files and directories.
+
 man=  manual( man ls,man cd,man pewd,man touch)
 
 touch=(--> to create a file by putting command like = touch a.txt
