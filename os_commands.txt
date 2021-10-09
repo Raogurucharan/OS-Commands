@@ -1,3 +1,7 @@
+   =========================================================================
+                           BASIC LINUX COMMANDS
+   =========================================================================
+
 ls=   listing files and directories.
 
 man=  manual( man ls,man cd,man pewd,man touch)
