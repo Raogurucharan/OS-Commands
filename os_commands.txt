@@ -4,6 +4,16 @@
 
 ls=   listing files and directories.
 
+ls -a = hidden files
+ls -A = almost all the file(except for parent file and current file)
+ls-l  = long list(if starting is d then directory,size in kb but not displayed)
+ls-lh = long listing but size is in human readable form (size will be displayed)
+ls -r = list in reverse order
+ls-R  = list directory contents recursively
+ls-s  = listing the size of all files and directories
+ls-s  = (will display file with highest file first)
+
+
 man=  manual( man ls,man cd,man pewd,man touch)
 
 touch=(--> to create a file by putting command like = touch a.txt
@@ -42,11 +52,4 @@ cd    =   ( to change the directory )
 
 pwd   =  ( present working directory: pwd )
 
-ls -a =hidden files
-ls -A =almost all the file(except for parent file and current file)
-ls-l  = long list(if starting is d then directory,size in kb but not displayed)
-ls-lh = long listing but size is in human readable form (size will be displayed)
-ls -r = list in reverse order
-ls-R  =list directory contents recursively
-ls-s  =listing the size of all files and directories
-ls-s  =(will display file with highest file first)
+
